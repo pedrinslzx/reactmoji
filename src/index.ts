@@ -5,3 +5,5 @@ export { getEmoji } from './utils/get-emoji'
 
 export type { EmojiName } from './emojis-names'
 export { default as EmojiNames } from './utils/emojis-names.json'
+
+export { Options, getOptions, setOptions } from './config'

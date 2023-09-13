@@ -59,6 +59,19 @@ const nextConfig = {
 module.exports = nextConfig
 ```
 
+## Options
+
+Se você quiser pode alterar o host e o https utilizando a função `setOptions`
+
+```javascript
+import { setOptions } from 'reactmoji'
+
+setOptions({
+  host: 'emojis.pedrinholemes.com.br',
+  https: true,
+})
+```
+
 ## Roadmap
 
 Ainda estou melhorando essa lib. Se tiver algo pra ajudar, manda uma ISSUE ou envie sua PR
