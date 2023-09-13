@@ -1,4 +1,4 @@
-import { EmojiName } from "./emojis-names";
+import { EmojiName } from '../emojis-names'
 
 export function getEmoji(emoji: EmojiName) {
   return {
@@ -6,5 +6,5 @@ export function getEmoji(emoji: EmojiName) {
     alt: `"${emoji} Emoji"`,
     width: 72,
     height: 72,
-  };
+  }
 }
