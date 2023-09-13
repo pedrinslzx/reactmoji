@@ -1,0 +1,22 @@
+{
+  "name": "reactmoji",
+  "version": "1.0.0",
+  "description": "iOS emojis in your React App",
+  "main": "index.js",
+  "keywords": [
+    "react",
+    "emojis",
+    "reactmoji"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Pedro Henrique Lemes <pedrinho.lemes@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.2.2",
+    "@types/react": "^18.2.21"
+  }
+}
