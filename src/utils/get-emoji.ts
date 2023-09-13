@@ -3,7 +3,7 @@ import { genURL } from './gen-url'
 
 export function getEmoji(emoji: EmojiName) {
   return {
-    src: genURL(`/emoji/72x72/${emoji}.png`),
+    src: genURL(`${emoji}.png`),
     alt: `"${emoji} Emoji"`,
     width: 72,
     height: 72,
