@@ -8,17 +8,5 @@ interface EmojiProps extends Omit<HTMLProps<HTMLImageElement>, 'src' | 'width' |
 }
 
 export const Emoji = forwardRef<HTMLImageElement, EmojiProps>(function Emoji({ emoji, ...props }, ref) {
-  return (
-    <img
-      {...getEmoji(emoji)}
-      style={{
-        width: '1em',
-        height: '1em',
-        display: 'inline-block',
-        verticalAlign: '-0.1em',
-      }}
-      ref={ref}
-      {...props}
-    />
-  )
+  return <img {...getEmoji(emoji)} ref={ref} {...props} />
 })
